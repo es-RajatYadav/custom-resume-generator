@@ -1,73 +1,55 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        custom-resume-generator
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div class='main-container'>
+    <div class='intro-heading'>
+      <h1><span id='designed-text-1'>Create a perfect </span><br><span id="designed-text">resume</span></h1>
+    </div>
+    <div class="paragraph-container">
+      <div class="intro-paragraph">
+        <p>with our online resume generator in just few easy steps <br> and  Increase your chance of landing a job.</p>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+}
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+<style scoped>
+.main-container{
+  width: 90%;
+  margin: auto;
+  color: rgb(82, 95, 127);
+}
+.intro-heading h1{
   text-align: center;
+  color: azure;
+  font-size: 68px;
+  margin-top: 110px;
+  line-height: 0.95;
 }
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+#designed-text-1{
+  font-weight: lighter;
 }
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+#designed-text{
+  background-image: linear-gradient(to right, #00f260, #0575e6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 120px;
 }
+.paragraph-container{
+  width: 90%;
+  margin: auto;
 
-.links {
-  padding-top: 15px;
+}
+.intro-paragraph{
+  text-align: center;
+  font-size: 30px;
+  color: #B9BBBF;
+  font-weight: lighter;
+
+  margin: 10px;
+
 }
 </style>
