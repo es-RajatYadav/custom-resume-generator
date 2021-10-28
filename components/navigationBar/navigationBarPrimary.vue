@@ -58,7 +58,7 @@ export default {
 .brand-name{
   height: auto;
   margin-top: 20px;
-  color: #ffffff;
+  color: rgb(43, 49, 52);
   font-weight: normal;
   margin-left: 5px;
 }
@@ -78,12 +78,12 @@ export default {
   display: inline;
   border: none;
   outline: none;
-  background: #2b3134;
+  background: whitesmoke;
   padding-top: 15px;
 }
 
 .navbar a{
-  color: #7ffbff;
+  color: #2b3134;
   text-decoration: none;
   font-size: 20px;
   padding-right: 30px;
@@ -121,7 +121,7 @@ export default {
   margin-right: 10px;
   border: none;
   outline: none;
-  background: #2b3134;
+  background: whitesmoke;
 }
 .auth-btn:active{
   box-shadow: inset -5px -5px 10px rgba(113, 113, 113, 0.15), inset 5px 5px 10px rgba(22, 20, 20, 0.15);
@@ -136,14 +136,14 @@ export default {
   font-family: FontAwesome;
   content: '\f090';
   font-size: 30px;
-  color: #6F7278;
+  color: #282b3a;
 }
 
 #signup-btn:after{
   font-family: FontAwesome;
   content: '\f234';
   font-size: 30px;
-  color: #6F7278;
+  color: #2a2c3a;
 }
 @media (max-width: 900px) {
   .container{

@@ -20,6 +20,6 @@ export default {
 <style>
 html, body{
   font-family: Roboto Condensed, "Helvetica Neue", sans-serif;
-  background-color: #2b3134;
+  background-color: whitesmoke;
 }
 </style>

@@ -44,7 +44,7 @@ footer{
   margin-bottom: 50px;
   text-align: center;
   padding: 3px;
-  color: white;
+  color: #2a2c3a;
   align-items: center;
 }
 .legals-container{
@@ -67,7 +67,7 @@ footer{
   display: inline;
 }
 .links-container a{
-  color: aquamarine;
+  color: rgba(31, 35, 36, 0.36);
   text-decoration: none;
   font-size: 15px;
   padding-right: 30px;

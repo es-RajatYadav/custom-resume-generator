@@ -24,7 +24,7 @@ export default {
 }
 .intro-heading h1{
   text-align: center;
-  color: azure;
+  color: rgba(40, 43, 58, 0.73);
   font-size: 68px;
   margin-top: 110px;
   line-height: 0.95;
@@ -46,7 +46,7 @@ export default {
 .intro-paragraph{
   text-align: center;
   font-size: 30px;
-  color: #B9BBBF;
+  color: rgba(42, 44, 58, 0.58);
   font-weight: lighter;
 
   margin: 10px;
