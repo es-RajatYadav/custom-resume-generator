@@ -8,9 +8,9 @@ export default async function ({store, route, redirect}){
   if(!currentUser && route.path.match(AuthenticatedRoutes)){
     redirect('/login');
   }else if( currentUser && !route.path.match(AuthenticatedRoutes)){
-    const currentUserDataSnapshot = await getDoc(doc(Database, "UserUID", currentUser.uid));
+    const currentUserDataSnapshot = await getDoc(doc(Database, "CSTUsersUID", currentUser.uid));
     if(currentUserDataSnapshot.exists()){
-      redirect(`/user/${currentUserDataSnapshot.data().CST_username}`);
+      redirect(`/user/${currentUserDataSnapshot.data().Username}`);
     }else {
       alert('Error');
     }

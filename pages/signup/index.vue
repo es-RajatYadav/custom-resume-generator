@@ -128,8 +128,8 @@ export default {
         UserFirstName: '',
         UserLastName: '',
         UserCreatedOn: new Date().getTime(),
-        Unsync_UserLocation: '',
-        Unsync_UserCountry: '',
+        Resume: []
+
       }).then(() => {
         this.createUsername();
       })
@@ -143,8 +143,7 @@ export default {
         UserProfilePictureURL: ''
       })
         .then(() => {
-          //
-          console.log("Done");
+          this.$router.push(`/user/${this.username}`);
         })
         .catch(e => {
           throw e;

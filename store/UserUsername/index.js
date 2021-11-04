@@ -18,6 +18,7 @@ export const actions = {
       const userDataSnapshot = await getDoc(doc(Database, "CSTUsersUID", currentUserUID));
       if(userDataSnapshot.exists()){
         console.log(userDataSnapshot.data().Username);
+        commit('SET_USERUSERNAME', userDataSnapshot.data().Username)
       }else {
         console.log("Error!!!!!!");
       }
